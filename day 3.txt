@@ -1,0 +1,58 @@
+#loops
+
+#for
+#n-1 i-iteratable object #step value
+for i in range(6):
+    print(i)
+else:
+    print("loop closed")
+
+
+--------------------
+#while
+
+num=0
+
+while num <= 10:
+    print(num)
+
+    num += 1 #agumented assignment
+    
+else:
+    print("loop closed")
+---------------------
+
+Jumping statements
+
+#continue , break
+
+#continue
+var = int(input("enter number 1 to 9:"))
+for i in range(0,10):
+    
+    if i == var:
+        continue
+
+    else:
+        print(i)
+---------------------
+
+#continue , break
+
+#break
+#var = int(input("enter number 1 to 9:"))
+for i in range(0,10):
+    
+    if i == 5:
+        break
+
+    else:
+        print(i)
+
+Task:
+
+take user input for 2 number
+
+print 0 to 10
+
+use continue to skip the user input number
